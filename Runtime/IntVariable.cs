@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Shoelace.SOVariables
 {
-	[CreateAssetMenu(fileName = "New Int SO", menuName = "SO Architecture/Variable/Int")]
+	[CreateAssetMenu(fileName = "New Int SO", menuName = "SO Architecture/Variable/Numeric/Int")]
 	public class IntVariable : SONumericVariable<int>
 	{
 		protected override bool EqualityComparer(int a, int b)

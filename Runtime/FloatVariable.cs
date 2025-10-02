@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Shoelace.SOVariables
 {
-	[CreateAssetMenu(fileName = "New Float SO", menuName = "SO Architecture/Variable/Float")]
+	[CreateAssetMenu(fileName = "New Float SO", menuName = "SO Architecture/Variable/Numeric/Float")]
 	public class FloatVariable : SONumericVariable<float>
 	{
 		private const float EPSILON = 0.00001f;
