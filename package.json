@@ -1,0 +1,14 @@
+{
+  "name": "com.shoelace.soap.variables",
+  "version": "1.0.0",
+  "displayName": "Shoelace SOAP variables",
+  "description": "Custom in-house global SO Variable system",
+  "unity": "2021.3",
+  "author": {
+    "name": "Shoelace Dev Team"
+  },
+  "contributors": [
+    { "name": "Ryan Pierce" },
+    { "name": "Travis Pierce" }
+  ]
+}
