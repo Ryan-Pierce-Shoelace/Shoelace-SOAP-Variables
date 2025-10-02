@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Shoelace.SOVariables
 {
-	[CreateAssetMenu(fileName = "New Vector2 SO", menuName = "SO Architecture/Variable/Vector2")]
+	[CreateAssetMenu(fileName = "New Vector3 SO", menuName = "🧩 SO Architecture/Variable/Vector/Vector3", order = 21)]
 	public class Vector2Variable : SOVariable<Vector2>
 	{
 		[SerializeField] private bool clampValues;

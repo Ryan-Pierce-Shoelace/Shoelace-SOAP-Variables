@@ -2,7 +2,8 @@ using UnityEngine;
 
 namespace Shoelace.SOVariables
 {
-    [CreateAssetMenu(fileName = "New String SO", menuName = "SO Architecture/Variable/String")]
+    [CreateAssetMenu(fileName = "New String SO", menuName = "🧩 SO Architecture/Variable/String", order = 11)]
+
     public class StringVariable : SOVariable<string>
     {
         [SerializeField] private bool trimWhitespace = false;

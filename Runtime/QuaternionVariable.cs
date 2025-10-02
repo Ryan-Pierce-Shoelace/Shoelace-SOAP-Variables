@@ -2,7 +2,8 @@ using UnityEngine;
 
 namespace Shoelace.SOVariables
 {
-    [CreateAssetMenu(fileName = "New Quaternion SO", menuName = "SO Architecture/Variable/Quaternion")]
+    [CreateAssetMenu(fileName = "New Quaternion SO", menuName = "🧩 SO Architecture/Variable/Rotation/Quaternion", order = 30)]
+
     public class QuaternionVariable : SOVariable<Quaternion>
     {
         [SerializeField] private bool lockX, lockY, lockZ;
@@ -13,7 +14,9 @@ namespace Shoelace.SOVariables
             get => Value.eulerAngles;
             set => Value = Quaternion.Euler(value);
         }
-		
+        public Vector3 Forward => Value * Vector3.forward;
+        public Vector3 Right => Value * Vector3.right;
+        public Vector3 Up => Value * Vector3.up;
         protected override void ValueChange(Quaternion newVal)
         {
             if (lockX || lockY || lockZ)
