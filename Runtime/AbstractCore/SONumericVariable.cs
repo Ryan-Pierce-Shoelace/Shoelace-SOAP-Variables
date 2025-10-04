@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
     public abstract class SONumericVariable<TNumber> : SOVariable<TNumber> where TNumber : struct, IComparable<TNumber>
     {

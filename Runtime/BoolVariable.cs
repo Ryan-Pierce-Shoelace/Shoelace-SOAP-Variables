@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
     [CreateAssetMenu(fileName = "New Bool SO", menuName = "🧩 SO Architecture/Variable/Bool", order = 10)]
     public class BoolVariable : SOVariable<bool>

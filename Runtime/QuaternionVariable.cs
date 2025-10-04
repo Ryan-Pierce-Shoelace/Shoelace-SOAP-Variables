@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
     [CreateAssetMenu(fileName = "New Quaternion SO", menuName = "🧩 SO Architecture/Variable/Rotation/Quaternion", order = 30)]
 

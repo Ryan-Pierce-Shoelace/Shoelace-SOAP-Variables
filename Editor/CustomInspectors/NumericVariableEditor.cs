@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Shoelace.SOVariables.Editor
+namespace ShoelaceStudios.SOAP.Variables.Editor
 {
     [CustomEditor(typeof(SONumericVariable<>), true)]
     public class NumericVariableEditor : UnityEditor.Editor

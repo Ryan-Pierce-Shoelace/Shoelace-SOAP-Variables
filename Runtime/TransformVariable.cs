@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
 	[CreateAssetMenu(fileName = "New Transform SO", menuName = "🧩 SO Architecture/Variable/Reference/Transform", order = 40)]
 	public class TransformVariable : SOVariable<Transform>

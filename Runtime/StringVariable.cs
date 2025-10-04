@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
     [CreateAssetMenu(fileName = "New String SO", menuName = "🧩 SO Architecture/Variable/String", order = 11)]
 

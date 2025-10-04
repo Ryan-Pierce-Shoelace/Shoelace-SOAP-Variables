@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
 	[CreateAssetMenu(fileName = "New Float SO", menuName = "🧩 SO Architecture/Variable/Numeric/Float", order = 0)]
 	public class FloatVariable : SONumericVariable<float>

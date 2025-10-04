@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
 	[CreateAssetMenu(fileName = "New Int SO", menuName = "🧩 SO Architecture/Variable/Numeric/Int", order = 1)]
 	public class IntVariable : SONumericVariable<int>

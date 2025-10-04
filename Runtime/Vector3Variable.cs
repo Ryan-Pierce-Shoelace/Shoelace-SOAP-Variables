@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Shoelace.SOVariables
+namespace ShoelaceStudios.SOAP.Variables
 {
 	[CreateAssetMenu(fileName = "New Vector3 SO", menuName = "🧩 SO Architecture/Variable/Vector/Vector3", order = 22)]
 	public class Vector3Variable : SOVariable<Vector3>

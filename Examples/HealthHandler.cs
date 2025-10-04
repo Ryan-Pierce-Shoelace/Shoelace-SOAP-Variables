@@ -1,7 +1,7 @@
-using Shoelace.SOVariables;
+using ShoelaceStudios.SOAP.Variables;
 using UnityEngine;
 
-namespace Shoelace.SOVariables.Examples
+namespace ShoelaceStudios.SOAP.Variables.Examples
 {
     public class HealthHandler : MonoBehaviour
     {

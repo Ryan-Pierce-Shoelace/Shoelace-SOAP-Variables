@@ -1,6 +1,6 @@
 {
-    "name": "Shoelace.SOVariables",
-    "rootNamespace": "Shoelace.SOVariables",
+    "name": "ShoelaceStudios.SOAP.Variables",
+    "rootNamespace": "ShoelaceStudios.SOAP.Variables",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
