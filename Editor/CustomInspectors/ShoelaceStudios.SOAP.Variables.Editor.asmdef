@@ -1,0 +1,16 @@
+{
+    "name": "ShoelaceStudios.SOAP.Variables.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:54697bfcba8f9544eb2eed59fd95fcb2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
