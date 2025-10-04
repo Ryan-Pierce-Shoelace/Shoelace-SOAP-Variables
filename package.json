@@ -1,7 +1,7 @@
 {
   "name": "ca.shoelacestudios.soap.variables",
-  "version": "1.2.0",
-  "displayName": "Shoelace SOAP variables",
+  "version": "1.3.0",
+  "displayName": "Shoelace SOAP Variables",
   "description": "Custom in-house global SO Variable system",
   "unity": "2021.3",
   "author": {
