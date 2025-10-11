@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ShoelaceStudios.SOAP.Variables
 {
-    [CreateAssetMenu(fileName = "New Bool SO", menuName = "🧩 SO Architecture/Variable/Bool", order = 10)]
+    [CreateAssetMenu(fileName = "New Bool SO", menuName = "🧩 SO Architecture/Variables/Bool", order = 10)]
     public class BoolVariable : SOVariable<bool>
     {
         public bool IsTrue() => Value;

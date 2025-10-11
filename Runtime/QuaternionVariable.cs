@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ShoelaceStudios.SOAP.Variables
 {
-    [CreateAssetMenu(fileName = "New Quaternion SO", menuName = "🧩 SO Architecture/Variable/Rotation/Quaternion", order = 30)]
+    [CreateAssetMenu(fileName = "New Quaternion SO", menuName = "🧩 SO Architecture/Variables/Rotation/Quaternion", order = 30)]
 
     public class QuaternionVariable : SOVariable<Quaternion>
     {

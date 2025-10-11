@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace ShoelaceStudios.SOAP.Variables
 {
-    [CreateAssetMenu(fileName = "New String SO", menuName = "🧩 SO Architecture/Variable/String", order = 11)]
+    [CreateAssetMenu(fileName = "New String SO", menuName = "🧩 SO Architecture/Variables/String", order = 11)]
 
     public class StringVariable : SOVariable<string>
     {
